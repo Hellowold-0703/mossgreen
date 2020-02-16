@@ -1,0 +1,30 @@
+.wrapper#wrapper 
+  %div#head_title
+    %h1　IT/Web業界の求人・採用情報に強い転職サイトMossGreen
+  %div#header
+    %div#header_left
+      %p#hd_h1
+        = link_to 'MossGreen', root_path
+        %ul#g_menu
+          %li#gm_srch
+            = link_to '求人を探す'
+          %li#gm_new
+            = link_to '新着求人'
+          %li#gm_list
+            = link_to '気になるリスト'
+          %li#gm_msg
+            = link_to 'メッセージ'
+          %li.search_form_header
+            %input{placeholder: 'キーワード、職種、企業名など'}
+            %button
+              検索
+    %div#header_right
+      %ul#r_menu
+        %li.lnk
+          = link_to 'ログイン'
+        %li.lnk
+          = link_to '会員登録'
+        %li#requestsLnk.lnk
+          = link_to '採用ご担当者様へ'
+  %div.content#content
+    
