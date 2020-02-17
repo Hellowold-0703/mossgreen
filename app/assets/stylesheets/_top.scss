@@ -95,11 +95,137 @@
     position: relative;
     z-index: 2;
     width: 100%;
-    height: auto;
+    height: 1000vh;
     padding: 0 0 100px;
     margin: 0 auto;
     background-color: #f5f5f5;
   }
+    #top_rgt {
+      float: right;
+      width: 300px;
+      height: auto;
+      padding: 0;
+      margin: 20px 20px 0 20px;
+      .btn-red {
+        background-color: #ff5f5f;
+      }
+      .btn-sidebar {
+        font-size: 20px;
+        padding: 10px;
+        width: 300px;
+        text-decoration: none;
+      }
+      .mb20 {
+        margin-bottom: 20px !important;
+      }
+      .mt10 {
+        margin-top: 10px !important;
+      }
+      .btn-facebook {
+        background-color: #5976b3;
+      }
+    }
+      .top_login {
+        border: 1px solid #d5d5d5;
+        background-color: #f0f0f0;
+      }
+      .side_box { 
+        margin: 0 0 20px 0;
+      }
+        .top_login h3 {
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          width: 280px;
+          padding: 10px 10px 5px;
+          background: #f0f0f0;
+        }
+        .side_box h3 {
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 16px;
+        }
+        .top_login_box {
+          padding: 5px 10px 10px !important;
+        }
+        .form {
+          line-height: 1.0em;
+        }
+          .top_login_box label {
+            display: block;
+            font-size: 10px;
+            font-weight: bold;
+            color: #555;
+            margin: 0 0 3px;
+          }
+          .top_login_box #user_mail {
+            margin-bottom: 10px;
+          }
+          .top_login_box #user_password {
+            margin-bottom: 3px;
+          }
+          .top_login_box input[type="text"], .top_login_box input[type="password"] {
+            vertical-align: top;
+            line-height: 1em;
+            width: 266px;
+            padding: 5px;
+            margin: 0 auto;
+            border: 1px solid #e0e0e0;
+            border-radius: 2px;
+            -webkit-border-radius: 2px;
+            -moz-border-radius: 2px;
+          }
+          .forget_password {
+            display: inline-block;
+            font-size: 10px;
+            margin: 0 0 10px;
+          }
+           a {
+            color: #1f8ed5;
+            text-decoration: none;
+          }
+          .btn-login {
+            float: left;
+            width: 80px;
+            height: 30px;
+            margin: 0 10px 0 3px;
+          }
+        .sidebar-border {
+          border-top: 1px solid #d5d5d5;
+          padding-top: 10px;
+          margin-top: 10px;
+        }
+        .w100p {
+          width: 100% !important;
+        }
+        .f14 {
+          font-size: 14px !important;
+        }
+        .btn-facebook {
+          background-color: #5976b3;
+        }
+  
+.btn-grey, .btn-facebook, .btn-orange, .btn-yellow, .btn-gold, .btn-red, .btn-green, .btn-blue, .btn-blue2 {
+  border: none;
+  color: #fff;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 2px 0 0 rgba(0,0,0,0.1);
+  -moz-box-shadow: 0 2px 0 0 rgba(0,0,0,0.1);
+  box-shadow: 0 2px 0 0 rgba(0,0,0,0.1);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  height: auto;
+  padding: 5px 10px;
+  text-align: center;
+}
 * {
   font-size: 12px;
   list-style: none;

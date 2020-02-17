@@ -1,6 +1,6 @@
 .wrapper#wrapper 
   %div#head_title
-    %h1　IT/Web業界の求人・採用情報に強い転職サイトMossGreen
+    %h1 IT/Web業界の求人・採用情報に強い転職サイトMossGreen
   %div#header
     %div#header_left
       %p#hd_h1
@@ -27,4 +27,23 @@
         %li#requestsLnk.lnk
           = link_to '採用ご担当者様へ'
   %div.content#content
-    
+    %div#top_rgt
+      = link_to '新規会員登録', root_path, class: "btn btn-sidebar btn-red"
+      = link_to 'facebookで会員登録', root_path, class: "btn btn-sidebar btn-facebook mt10 mb20"
+      %div.top_login.side_box
+        %h3 ログイン
+        %div.top_login_box
+          %form
+            %label メールアドレス
+            %div
+              %input#user_mail{type: "text"}
+            %label パスワード
+            %div
+              %input#user_password{type: "password"}
+            = link_to 'パスワードを忘れた方はこちら', root_path, class: "forget_password"
+            %div.btn_login_box
+              %button.btn-login ログイン 
+          %br
+          %br
+          %div.sidebar-border
+          = link_to 'facebookでログイン',root_path, class: "btn btn-facebook f14 w100p"
