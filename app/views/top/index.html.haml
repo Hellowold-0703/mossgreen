@@ -1,0 +1,129 @@
+.wrapper#wrapper 
+  %div#head_title
+    %h1 IT/Web業界の求人・採用情報に強い転職サイトMossGreen
+  %div#header
+    %div#header_left
+      %p#hd_h1
+        = link_to 'MossGreen', root_path
+        %ul#g_menu
+          %li#gm_srch
+            = link_to '求人を探す'
+          %li#gm_new
+            = link_to '新着求人'
+          %li#gm_list
+            = link_to '気になるリスト'
+          %li#gm_msg
+            = link_to 'メッセージ'
+          %li.search_form_header
+            %input{placeholder: 'キーワード、職種、企業名など'}
+            %button
+              検索
+    %div#header_right
+      %ul#r_menu
+        %li.lnk
+          = link_to 'ログイン'
+        %li.lnk
+          = link_to '会員登録'
+        %li#requestsLnk.lnk
+          = link_to '採用ご担当者様へ'
+  %div.content#content
+    %div#top_rgt
+      = link_to '新規会員登録', root_path, class: "btn btn-sidebar btn-red"
+      = link_to 'facebookで会員登録', root_path, class: "btn btn-sidebar btn-facebook mt10 mb20"
+      .top_login.side_box
+        %h3 ログイン
+        .top_login_box
+          %form
+            %label メールアドレス
+            %div
+              %input#user_mail{type: "text"}
+            %label パスワード
+            %div
+              %input#user_password{type: "password"}
+            = link_to 'パスワードを忘れた方はこちら', root_path, class: "forget_password"
+            %div.btn_login_box
+              %button.btn-login ログイン 
+          %br
+          %br
+          %div.sidebar-border
+          = link_to 'facebookでログイン',root_path, class: "btn btn-facebook f14 w100p"
+      .side_box
+        = image_tag 'https://den8lgfpmzfo0.cloudfront.net/assets/web_app_ad@3x-b12c8cea9ee0f4990925bbc9c7c5fc21500f87c93c2065825ff045eeafcf1c2c.png', alt: "Web app ad@3x"
+      .side_box
+        %h3
+          求人特集 
+          = link_to 'MossGreenがお届けする転職求人特集', root_path, class: "side_kyuujin"
+        .side_feature_box
+          = link_to '設立10年以内の成長企業特集' do
+            = image_tag 'https://den8lgfpmzfo0.cloudfront.net/photo/3823/normal/265810.png'
+            %h4 設立10年以内の成長企業特集
+            %p 自分自身と会社、双方の成長を求める方必見です！
+          = link_to '設立10年以内の成長企業特集' do
+            = image_tag 'https://den8lgfpmzfo0.cloudfront.net/photo/3823/normal/265810.png'
+            %h4 設立10年以内の成長企業特集
+            %p 自分自身と会社、双方の成長を求める方必見です！
+          = link_to '設立10年以内の成長企業特集', class: "li_last" do
+            = image_tag 'https://den8lgfpmzfo0.cloudfront.net/photo/3823/normal/265810.png'
+            %h4 設立10年以内の成長企業特集
+            %p 自分自身と会社、双方の成長を求める方必見です！
+      .side_box
+        %h3 ピックアップ企業
+        .side_pickup_box
+          = link_to '株式会社 ストリートスマート' do
+            .side_pickup_box_right
+              = image_tag 'https://den8lgfpmzfo0.cloudfront.net/photo/5387/118/219152.png',alt: "株式会社 ストリートスマート"
+            .side_pickup_box_left
+              %h4 株式会社 ストリートスマート
+              %p これからのワークスタイルをリードする。クラウドの活用支援を通して働き方を改革するプロフェッショナル集団
+        .side_pickup_box
+          = link_to '株式会社 ストリートスマート' do
+            .side_pickup_box_right
+              = image_tag 'https://den8lgfpmzfo0.cloudfront.net/photo/5387/118/219152.png',alt: "株式会社 ストリートスマート"
+            .side_pickup_box_left
+              %h4 株式会社 ストリートスマート
+              %p これからのワークスタイルをリードする。クラウドの活用支援を通して働き方を改革するプロフェッショナル集団
+        .side_pickup_box
+          = link_to '株式会社 ストリートスマート' do
+            .side_pickup_box_right
+              = image_tag 'https://den8lgfpmzfo0.cloudfront.net/photo/5387/118/219152.png',alt: "株式会社 ストリートスマート"
+            .side_pickup_box_left
+              %h4 株式会社 ストリートスマート
+              %p これからのワークスタイルをリードする。クラウドの活用支援を通して働き方を改革するプロフェッショナル集団
+        .side_pickup_box
+          = link_to '株式会社 ストリートスマート' do
+            .side_pickup_box_right
+              = image_tag 'https://den8lgfpmzfo0.cloudfront.net/photo/5387/118/219152.png',alt: "株式会社 ストリートスマート"
+            .side_pickup_box_left
+              %h4 株式会社 ストリートスマート
+              %p これからのワークスタイルをリードする。クラウドの活用支援を通して働き方を改革するプロフェッショナル集団
+        .side_pickup_box
+          = link_to '株式会社 ストリートスマート',class: "li_last" do
+            .side_pickup_box_right
+              = image_tag 'https://den8lgfpmzfo0.cloudfront.net/photo/5387/118/219152.png',alt: "株式会社 ストリートスマート"
+            .side_pickup_box_left
+              %h4 株式会社 ストリートスマート
+              %p これからのワークスタイルをリードする。クラウドの活用支援を通して働き方を改革するプロフェッショナル集団
+      .side_box
+        %h3 転職お役立ちガイド
+        .side_usefull_box
+          = link_to '' do
+            転職活動の準備について
+            %br
+            %span 転職活動開始時の企業の探し方や、スケジューリングについてなど
+        .side_usefull_box
+          = link_to '' do
+            プロフィールについて
+            %br
+            %span Greenでの応募書類となるプロフィール（応募・匿名スカウト）の書き方やサンプル一覧など
+        .side_usefull_box
+          = link_to '' do
+            面接アドバイスについて
+            %br
+            %span 面接準備の仕方や、良く聞かれる１２の質問、人事のチェックポイントなど
+        .side_usefull_box
+          = link_to '', class: "li_last" do
+            内定〜退職時について
+            %br
+            %span 退職意思の伝え方、退職届の書き方、引継ぎの方法など
+
+          
