@@ -204,7 +204,76 @@
         .btn-facebook {
           background-color: #5976b3;
         }
-  
+    .side_box {
+      img {
+        width: 100%;
+        vertical-align: middle;
+      }
+    }
+    .side_box {
+      h3 {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16px;
+        font-weight: normal;
+        color: #333;
+        width: 290px;
+        padding: 5px;
+        margin: 0;
+        background: #e9e9e9;
+      }
+        .side_kyuujin {
+          float: right;
+          font-size: 10px;
+        }
+        .side_box>div, .side_pickup_box, .side_feature_box, .side_usefull_box  {
+          overflow: hidden;
+          padding: 0;
+          margin: 0;
+          a {
+            display: block;
+            overflow: hidden;
+            padding: 10px 5px;
+            margin: 0;
+            border-bottom: 1px solid #e5e5e5;
+          }
+            img {
+              float: left;
+              margin: 0 10px 0 0;
+              width: 120px;
+              height: 90px;
+            }
+            h4 {
+              font-size: 14px;
+              margin: 0 0 5px;
+            }
+            p {
+              color: #333;
+              margin: 0;
+            }
+            .li_last {
+              margin-bottom: 0 !important;
+              border-bottom: none !important;
+            }
+         }
+         .side_pickup_box h4 {
+          font-size: 12px;
+          margin: 0 0 3px;
+         }
+         .side_pickup_box p {
+          font-size: 10px;
+          color: #333;
+          margin: 0;
+         }
+         .side_pickup_box_left {
+          width: 160px;
+          float: left;
+         }
+         .side_usefull_box span {
+          font-size: 11px;
+          color: #333;
+      }
+    }
 .btn-grey, .btn-facebook, .btn-orange, .btn-yellow, .btn-gold, .btn-red, .btn-green, .btn-blue, .btn-blue2 {
   border: none;
   color: #fff;
